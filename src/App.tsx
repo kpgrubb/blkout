@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import { AppShell } from "./components/layout/AppShell";
 import { RulesPage } from "./components/rules/RulesPage";
 import { ForceBuilderPage } from "./components/force-builder/ForceBuilderPage";
@@ -7,7 +7,7 @@ import { LorePage } from "./components/lore/LorePage";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <AppShell>
         <Routes>
           <Route path="/" element={<Navigate to="/rules" replace />} />
@@ -17,6 +17,6 @@ export default function App() {
           <Route path="/lore" element={<LorePage />} />
         </Routes>
       </AppShell>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
