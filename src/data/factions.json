@@ -1,0 +1,102 @@
+[
+  {
+    "id": "harlow",
+    "name": "Harlow 1st Reaction Force",
+    "code": "HFR",
+    "allegiance": "authority",
+    "color": "#f59e0b",
+    "description": "The strong right arm of The Authority. Harlow Kinetic Solutions' elite mercenaries are equipped with jump jets, smart weapons, and combat inorganics. The 1st Reaction Force hits hard, and they hit fast.",
+    "forceRule": "Harlow First Reaction Force Units gain +2 Movement when Sprinting.",
+    "loreId": "harlow-kinetic-solutions"
+  },
+  {
+    "id": "un-raid-force-alpha",
+    "name": "UN Raid Force Alpha",
+    "code": "RFA",
+    "allegiance": "authority",
+    "color": "#3b82f6",
+    "description": "The pinnacle of UN forces on ABOL. Genetically augmented apex warriors operating in two-woman fireteams, supported by the cold logic of their 'Golem' inorganics. If you see them on the battlefield, it's already too late.",
+    "forceRule": "All UN Raid Team Alpha UTG Assaulter and Specialist Units gain an additional D10 roll in all Skill Checks, including Shooting and Close Quarters Combat (CQC).",
+    "loreId": "un-raid-force-alpha"
+  },
+  {
+    "id": "un-3rd-battalion",
+    "name": "UN 3rd Battalion",
+    "code": "UNR",
+    "allegiance": "authority",
+    "color": "#3b82f6",
+    "description": "Veterans of the 'Yellow Riots,' the UN's 3rd Battalion serves as the professional arm of United Nations Force Command. Battle-hardened men and women equipped with smart rifles and Combat Kinetic Suits, supported by 'Pointman' Inorganic units.",
+    "forceRule": "All UN 3rd Battalion non-AI Infantry Models that are Base-to-Base with another Infantry Model may re-roll all Failed Shots with non-Armory weapons.",
+    "loreId": "authority"
+  },
+  {
+    "id": "un-forces",
+    "name": "UN Forces",
+    "code": "UNF",
+    "allegiance": "authority",
+    "color": "#3b82f6",
+    "description": "The general forces of the United Nations on ABOL, combining UTG clone soldiers, raid teams, and battlefield command elements into a flexible fighting force.",
+    "forceRule": "",
+    "loreId": "authority"
+  },
+  {
+    "id": "manticor-borz",
+    "name": "Manticor Borz Group",
+    "code": "MBG",
+    "allegiance": "chimera",
+    "color": "#ef4444",
+    "description": "Manticor prides itself on physical strength. Implacable in their attack, layers of ballistic armor let the soldiers of the Manticor Borz Force shrug off hits that would incapacitate any other force. Practical and methodical -- they'll put you in the ground.",
+    "forceRule": "Manticor Borz Group Models ignore the first point of Damage suffered from a Blast Weapon.",
+    "loreId": "manticor-borz"
+  },
+  {
+    "id": "task-force-boone",
+    "name": "Task Force Boone",
+    "code": "TFB",
+    "allegiance": "independent",
+    "color": "#22c55e",
+    "description": "Burning in from Mars, fueled by vengeance. After a grueling war against UN forces in Earth's solar system, they've perfected their craft: small unit tactics that dominate the battlefield. They fire, maneuver, and finish -- swiftly and efficiently.",
+    "forceRule": "Once Per Round one non-AI or Powered Infantry Model may make the Data Attack Action.",
+    "loreId": "task-force-boone"
+  },
+  {
+    "id": "ork",
+    "name": "ORK",
+    "code": "ORK",
+    "allegiance": "authority",
+    "color": "#6366f1",
+    "description": "Rozwizania Konfliktów Orłów -- the military arm of Polskie Przedsiębiorstwa Państwowe (P3). Composed mainly of former Polish Special Forces, ORK expanded from mining security to become the second largest PMC on ABOL.",
+    "forceRule": "",
+    "loreId": "ork"
+  },
+  {
+    "id": "banak",
+    "name": "Banak Strategic",
+    "code": "BNK",
+    "allegiance": "independent",
+    "color": "#ec4899",
+    "description": "Founded by Hakob Dharbinyan in 2084, Banak Strategic became a leading extraction team in the Badlands, known for advanced bionics and Kinetic Suits. Evolved from the now-defunct Ibragim Strategic.",
+    "forceRule": "",
+    "loreId": "banak"
+  },
+  {
+    "id": "the-headless",
+    "name": "The Headless",
+    "code": "THL",
+    "allegiance": "headless",
+    "color": "#a855f7",
+    "description": "A mutual security coalition formed from remnants of IRAFEL, Impisi, Sabra, Jackal Team, and others. Led by James Vasquez, they govern a confederation of independent cities and factions, offering an alternative to Authority oppression.",
+    "forceRule": "",
+    "loreId": "the-headless"
+  },
+  {
+    "id": "chimera",
+    "name": "Chimera",
+    "code": "CHM",
+    "allegiance": "chimera",
+    "color": "#f97316",
+    "description": "Emerged from extremist factions of the Ibragim civil war. These zealots advocate for a fusion of technology and biology, integrating advanced tech and enhanced musculature. The most augmented members, known as Disciples, are terrifying on the battlefield.",
+    "forceRule": "",
+    "loreId": "chimera"
+  }
+]

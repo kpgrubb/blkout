@@ -1,0 +1,601 @@
+[
+  {
+    "id": "hfr-assault-team",
+    "factionId": "harlow",
+    "name": "Assault Team",
+    "fullName": "Harlow Assault Team",
+    "catalogCode": "HFR-6772",
+    "movement": 6,
+    "skill": 4,
+    "armor": "1/6",
+    "combatLoads": 2,
+    "weapons": [
+      { "name": "FAL-32C", "range": "24\"", "damage": 1, "keywords": ["CQB"] }
+    ],
+    "specialists": [
+      {
+        "slot": 1,
+        "title": "Machine Gunner",
+        "weapon": { "name": "P34", "range": "24\"", "damage": 1, "keywords": ["Cyclic", "Heavy"] }
+      },
+      {
+        "slot": 2,
+        "title": "Team Leader",
+        "ability": "When this Model gains a Ready Token it may give it to a Model in this Unit that has already made an Action."
+      }
+    ],
+    "specialRules": [],
+    "unitAbility": null,
+    "isDuster": false,
+    "isAI": false,
+    "isPowered": false
+  },
+  {
+    "id": "hfr-control-team",
+    "factionId": "harlow",
+    "name": "Control Team",
+    "fullName": "Harlow Control Team",
+    "catalogCode": "HFR-6771",
+    "movement": 6,
+    "skill": 4,
+    "armor": "1/6",
+    "combatLoads": 1,
+    "weapons": [
+      { "name": "FAL-32C", "range": "24\"", "damage": 1, "keywords": ["CQB"] }
+    ],
+    "specialists": [
+      { "slot": 1, "title": "Data Spike" },
+      {
+        "slot": 2,
+        "title": "Grenade Launcher",
+        "weapon": { "name": "Grenade Launcher", "range": "24\"", "damage": 2, "keywords": ["Blast (1)"] }
+      }
+    ],
+    "specialRules": [],
+    "unitAbility": "One Unit may be Activated after this Unit without spending a Control Point.",
+    "isDuster": false,
+    "isAI": false,
+    "isPowered": false
+  },
+  {
+    "id": "hfr-springbok-ai",
+    "factionId": "harlow",
+    "name": "Springbok AI",
+    "fullName": "Harlow Springbok AI",
+    "catalogCode": "HFR-6770",
+    "movement": 6,
+    "skill": 6,
+    "armor": "2/6",
+    "combatLoads": 2,
+    "weapons": [
+      { "name": "FAL-32D", "range": "24\"", "damage": 1, "keywords": ["CQB", "Sustained (1)"] }
+    ],
+    "specialists": [],
+    "specialRules": ["AI"],
+    "unitAbility": null,
+    "isDuster": false,
+    "isAI": true,
+    "isPowered": false
+  },
+  {
+    "id": "hfr-veterans",
+    "factionId": "harlow",
+    "name": "Veterans",
+    "fullName": "Harlow Veterans",
+    "catalogCode": "HFR-6775",
+    "movement": 5,
+    "skill": 6,
+    "armor": "1/6",
+    "combatLoads": 3,
+    "weapons": [
+      { "name": "Carbine", "range": "18\"", "damage": 1, "keywords": ["CQB"] },
+      { "name": "Machetes", "range": "2\"", "damage": 1, "keywords": ["AP (1)", "Melee"] },
+      { "name": "Pulse Grenades", "range": "6\"", "damage": 1, "keywords": ["Blast (1)", "EMP"] }
+    ],
+    "specialists": [],
+    "specialRules": ["Jump (4)", "Low Tech"],
+    "unitAbility": null,
+    "isDuster": false,
+    "isAI": false,
+    "isPowered": false
+  },
+  {
+    "id": "hfr-engineers",
+    "factionId": "harlow",
+    "name": "Engineers",
+    "fullName": "Harlow Engineers",
+    "catalogCode": "HFR-6774",
+    "movement": 6,
+    "skill": 4,
+    "armor": "1/6",
+    "combatLoads": 1,
+    "weapons": [
+      { "name": "Carbine", "range": "18\"", "damage": 1, "keywords": ["CQB"] }
+    ],
+    "specialists": [
+      {
+        "slot": 1,
+        "title": "Engineer",
+        "weapon": { "name": "AT Launcher", "range": "8-32\"", "damage": 3, "keywords": ["AP (2)", "Blast (1)"] }
+      }
+    ],
+    "specialRules": [],
+    "unitAbility": null,
+    "isDuster": false,
+    "isAI": false,
+    "isPowered": false
+  },
+  {
+    "id": "hfr-crikets",
+    "factionId": "harlow",
+    "name": "Crikets",
+    "fullName": "Harlow Crikets",
+    "catalogCode": "HFR-6776",
+    "movement": 7,
+    "skill": 6,
+    "armor": "1/8",
+    "combatLoads": 2,
+    "weapons": [
+      { "name": "Self Destruct", "range": "4\"", "damage": 1, "keywords": ["AP (4)", "CQB"] }
+    ],
+    "specialists": [],
+    "specialRules": ["AI", "Drone"],
+    "unitAbility": "This unit does not count toward the Unit limit when grouped with Harlow Engineers, and it cannot benefit from Force Cards. Remove this model after using Self Destruct.",
+    "isDuster": false,
+    "isAI": true,
+    "isPowered": false
+  },
+  {
+    "id": "mbg-bratva-team",
+    "factionId": "manticor-borz",
+    "name": "Bratva Team",
+    "fullName": "Manticor Bratva Team",
+    "catalogCode": "MBG-122",
+    "movement": 6,
+    "skill": 4,
+    "armor": "1/4",
+    "combatLoads": 2,
+    "weapons": [
+      { "name": "AKMZ-2", "range": "24\"", "damage": 1, "keywords": ["Medium"] }
+    ],
+    "specialists": [
+      { "slot": 1, "title": "Data Spike" },
+      {
+        "slot": 2,
+        "title": "HMG",
+        "weapon": { "name": "HMG", "range": "4-24\"", "damage": 2, "keywords": ["Sustained (2)", "Deployed"] }
+      }
+    ],
+    "specialRules": ["Shield"],
+    "unitAbility": "If at least two Models from this Unit are on the Table, you may roll an additional D10 for Initiative. Use the highest result rolled.",
+    "isDuster": false,
+    "isAI": false,
+    "isPowered": false
+  },
+  {
+    "id": "mbg-insertion-team",
+    "factionId": "manticor-borz",
+    "name": "Insertion Team",
+    "fullName": "Manticor Insertion Team",
+    "catalogCode": "MBG-121",
+    "movement": 6,
+    "skill": 4,
+    "armor": "1/4",
+    "combatLoads": 2,
+    "weapons": [
+      { "name": "AKMZ-2", "range": "24\"", "damage": 1, "keywords": ["Medium"] }
+    ],
+    "specialists": [
+      {
+        "slot": 1,
+        "title": "Machine Gunner",
+        "weapon": { "name": "SYY-1", "range": "24\"", "damage": 1, "keywords": ["Cyclic", "Heavy"] }
+      },
+      {
+        "slot": 2,
+        "title": "Sidewinder",
+        "ability": "Check one of these boxes to allow this Model to use its Action to make a Skill Check. If it passes, you may give a Unit with a Model within 12\" of this Model a Pinned Marker."
+      }
+    ],
+    "specialRules": [],
+    "unitAbility": null,
+    "isDuster": false,
+    "isAI": false,
+    "isPowered": false
+  },
+  {
+    "id": "mbg-cyka-team",
+    "factionId": "manticor-borz",
+    "name": "Cyka Team",
+    "fullName": "Manticor Cyka Team",
+    "catalogCode": "MBG-123",
+    "movement": 6,
+    "skill": 4,
+    "armor": "2/4",
+    "combatLoads": 1,
+    "weapons": [
+      { "name": "SYY-1", "range": "24\"", "damage": 1, "keywords": ["Cyclic", "Heavy"] },
+      { "name": "Grenade Launcher", "range": "24\"", "damage": 2, "keywords": ["Blast (1)"] }
+    ],
+    "specialists": [],
+    "specialRules": ["Powered"],
+    "unitAbility": null,
+    "isDuster": false,
+    "isAI": false,
+    "isPowered": true
+  },
+  {
+    "id": "mbg-cyka-bravo",
+    "factionId": "manticor-borz",
+    "name": "Cyka Bravo",
+    "fullName": "Manticor Cyka Bravo",
+    "catalogCode": "MBG-126",
+    "movement": 6,
+    "skill": 4,
+    "armor": "2/4",
+    "combatLoads": 2,
+    "weapons": [
+      { "name": "SMG", "range": "12\"", "damage": 1, "keywords": ["CQB"] },
+      { "name": "Boarding Axe", "range": "2\"", "damage": 1, "keywords": ["Melee", "AP (3)"] }
+    ],
+    "specialists": [],
+    "specialRules": ["Powered"],
+    "unitAbility": null,
+    "isDuster": false,
+    "isAI": false,
+    "isPowered": true
+  },
+  {
+    "id": "mbg-ubiytsa",
+    "factionId": "manticor-borz",
+    "name": "Ubiytsa",
+    "fullName": "Manticor Ubiytsa",
+    "catalogCode": "MBG-124",
+    "movement": 6,
+    "skill": 6,
+    "armor": "1/6",
+    "combatLoads": 3,
+    "weapons": [
+      { "name": "Heavy Rifle", "range": "12\"", "damage": 1, "keywords": ["AP (3)"] },
+      { "name": "Boarding Axe", "range": "2\"", "damage": 1, "keywords": ["Melee", "AP (3)"] }
+    ],
+    "specialists": [],
+    "specialRules": ["Low Tech"],
+    "unitAbility": null,
+    "isDuster": false,
+    "isAI": false,
+    "isPowered": false
+  },
+  {
+    "id": "mbg-ubiytsa-control",
+    "factionId": "manticor-borz",
+    "name": "Ubiytsa Control Team",
+    "fullName": "Manticor Ubiytsa Control Team",
+    "catalogCode": "MBG-125",
+    "movement": 6,
+    "skill": 6,
+    "armor": "1/6",
+    "combatLoads": 1,
+    "weapons": [
+      { "name": "Heavy Rifle", "range": "12\"", "damage": 1, "keywords": ["AP (3)"] },
+      { "name": "Boarding Axe", "range": "2\"", "damage": 1, "keywords": ["Melee", "AP (3)"] }
+    ],
+    "specialists": [
+      {
+        "slot": 1,
+        "title": "Controller",
+        "ability": "One Unit may be Activated after this Unit without spending a Control Point."
+      }
+    ],
+    "specialRules": ["Low Tech"],
+    "unitAbility": null,
+    "isDuster": false,
+    "isAI": false,
+    "isPowered": false
+  },
+  {
+    "id": "rfa-utg-assaulters",
+    "factionId": "un-raid-force-alpha",
+    "name": "UTG Assaulters",
+    "fullName": "UN UTG Assaulters",
+    "catalogCode": "RFA-4391",
+    "movement": 5,
+    "skill": 6,
+    "armor": "1/5",
+    "combatLoads": 1,
+    "weapons": [
+      { "name": "M7 Carbine", "range": "18\"", "damage": 1, "keywords": ["CQB"] }
+    ],
+    "specialists": [
+      {
+        "slot": 1,
+        "title": "Grenadier",
+        "weapon": { "name": "Grenade Launcher", "range": "24\"", "damage": 2, "keywords": ["Blast (1)"] }
+      }
+    ],
+    "specialRules": ["Jump (4)"],
+    "unitAbility": null,
+    "isDuster": false,
+    "isAI": false,
+    "isPowered": false
+  },
+  {
+    "id": "rfa-utg-specialists",
+    "factionId": "un-raid-force-alpha",
+    "name": "UTG Specialists",
+    "fullName": "UN UTG Specialists",
+    "catalogCode": "RFA-4392",
+    "movement": 5,
+    "skill": 6,
+    "armor": "1/5",
+    "combatLoads": 1,
+    "weapons": [
+      { "name": "M7 Carbine", "range": "18\"", "damage": 1, "keywords": ["CQB"] }
+    ],
+    "specialists": [
+      {
+        "slot": 1,
+        "title": "Marksman",
+        "weapon": { "name": "Anti-Material Rifle", "range": "32\"", "damage": 2, "keywords": ["AP (2)", "Deployed"] }
+      }
+    ],
+    "specialRules": ["Jump (4)"],
+    "unitAbility": null,
+    "isDuster": false,
+    "isAI": false,
+    "isPowered": false
+  },
+  {
+    "id": "rfa-golem-unit",
+    "factionId": "un-raid-force-alpha",
+    "name": "Golem Unit",
+    "fullName": "UN Golem Unit",
+    "catalogCode": "RFA-4393",
+    "movement": 5,
+    "skill": 4,
+    "armor": "3/5",
+    "combatLoads": 1,
+    "weapons": [
+      { "name": "FPR Auto", "range": "24\"", "damage": 1, "keywords": ["Sustained (1)"] }
+    ],
+    "specialists": [
+      {
+        "slot": 1,
+        "title": "Fire Support",
+        "weapon": { "name": "Screecher", "range": "18\"", "damage": 2, "keywords": ["Seeking"] }
+      }
+    ],
+    "specialRules": ["Jump (4)", "AI"],
+    "unitAbility": null,
+    "isDuster": false,
+    "isAI": true,
+    "isPowered": false
+  },
+  {
+    "id": "unr-reserve-fireteam",
+    "factionId": "un-3rd-battalion",
+    "name": "Reserve Fireteam",
+    "fullName": "UN Reserve Fireteam",
+    "catalogCode": "UNR-462",
+    "movement": 7,
+    "skill": 4,
+    "armor": "1/5",
+    "combatLoads": 2,
+    "weapons": [
+      { "name": "Rifles", "range": "24\"", "damage": 1, "keywords": [] },
+      { "name": "Micro Grenades", "range": "6\"", "damage": 1, "keywords": ["Blast (1)"] }
+    ],
+    "specialists": [
+      { "slot": 1, "title": "Data Specialist" },
+      {
+        "slot": 2,
+        "title": "AT Specialist",
+        "weapon": { "name": "AT Launcher", "range": "8-32\"", "damage": 3, "keywords": ["AP (2)", "Blast (1)"] }
+      }
+    ],
+    "specialRules": [],
+    "unitAbility": null,
+    "isDuster": false,
+    "isAI": false,
+    "isPowered": false
+  },
+  {
+    "id": "unr-pointmen",
+    "factionId": "un-3rd-battalion",
+    "name": "Pointmen",
+    "fullName": "UN Pointmen",
+    "catalogCode": "UNR-461",
+    "movement": 6,
+    "skill": 4,
+    "armor": "3/6",
+    "combatLoads": 1,
+    "weapons": [
+      { "name": "Rifles", "range": "24\"", "damage": 1, "keywords": ["Medium"] }
+    ],
+    "specialists": [
+      {
+        "slot": 1,
+        "title": "SAW Gunner",
+        "weapon": { "name": "LMG", "range": "32\"", "damage": 1, "keywords": ["Cyclic", "Heavy"] }
+      }
+    ],
+    "specialRules": ["AI", "Shield"],
+    "unitAbility": null,
+    "isDuster": false,
+    "isAI": true,
+    "isPowered": false
+  },
+  {
+    "id": "unr-peacemaker",
+    "factionId": "un-3rd-battalion",
+    "name": "Peacemaker",
+    "fullName": "UN Peacemaker",
+    "catalogCode": "UNR-463",
+    "movement": 6,
+    "skill": 4,
+    "armor": "3/6",
+    "combatLoads": 0,
+    "weapons": [
+      { "name": "HMG", "range": "6-32\"", "damage": 1, "keywords": ["AP (2)", "Auto (1)"] },
+      { "name": "Missile System", "range": "8-32\"", "damage": 2, "keywords": ["AP (2)", "Blast (1)"] }
+    ],
+    "specialists": [],
+    "specialRules": ["Drone", "AI"],
+    "unitAbility": null,
+    "isDuster": false,
+    "isAI": true,
+    "isPowered": false
+  },
+  {
+    "id": "unf-utg-mothers",
+    "factionId": "un-forces",
+    "name": "UTG Mothers",
+    "fullName": "UN UTG Mothers",
+    "catalogCode": "UNF-881",
+    "movement": 4,
+    "skill": 6,
+    "armor": "2/5",
+    "combatLoads": 2,
+    "weapons": [
+      { "name": "PDW", "range": "8\"", "damage": 1, "keywords": [] },
+      { "name": "Elite Melee", "range": "4\"", "damage": 1, "keywords": ["AP (2)", "Cyclic", "Melee"] }
+    ],
+    "specialists": [],
+    "specialRules": ["Jump (4)"],
+    "unitAbility": null,
+    "isDuster": false,
+    "isAI": false,
+    "isPowered": false
+  },
+  {
+    "id": "unf-raid-team",
+    "factionId": "un-forces",
+    "name": "Raid Team",
+    "fullName": "UN Raid Team",
+    "catalogCode": "UNF-882",
+    "movement": 5,
+    "skill": 6,
+    "armor": "1/5",
+    "combatLoads": 3,
+    "weapons": [
+      { "name": "Carbines", "range": "18\"", "damage": 1, "keywords": ["CQB"] },
+      { "name": "Micro Grenades", "range": "6\"", "damage": 1, "keywords": ["Blast (1)"] }
+    ],
+    "specialists": [],
+    "specialRules": ["Jump (4)"],
+    "unitAbility": null,
+    "isDuster": false,
+    "isAI": false,
+    "isPowered": false
+  },
+  {
+    "id": "unf-batcon",
+    "factionId": "un-forces",
+    "name": "BATCON",
+    "fullName": "UN BATCON",
+    "catalogCode": "UNF-883",
+    "movement": 5,
+    "skill": 4,
+    "armor": "1/5",
+    "combatLoads": 1,
+    "weapons": [
+      { "name": "Rifles", "range": "24\"", "damage": 1, "keywords": ["Medium"] },
+      { "name": "Micro Grenades", "range": "6\"", "damage": 1, "keywords": ["Blast (1)"] }
+    ],
+    "specialists": [
+      {
+        "slot": 1,
+        "title": "Comms Bot",
+        "ability": "AI, 3/5, Data Spike"
+      }
+    ],
+    "specialRules": ["Jump (4)"],
+    "unitAbility": "One Unit may be Activated after this Unit without spending a Control Point.",
+    "isDuster": false,
+    "isAI": false,
+    "isPowered": false
+  },
+  {
+    "id": "tfb-recon-team",
+    "factionId": "task-force-boone",
+    "name": "Recon Team",
+    "fullName": "Boone Recon Team",
+    "catalogCode": "TFB-9861",
+    "movement": 6,
+    "skill": 4,
+    "armor": "1/6",
+    "combatLoads": 2,
+    "weapons": [
+      { "name": "Heavy Rifle", "range": "24\"", "damage": 1, "keywords": ["AP (1)"] }
+    ],
+    "specialists": [
+      {
+        "slot": 1,
+        "title": "Team Leader",
+        "ability": "When this Model would gain a Ready token from the Ready Action, it may instead give it to a Model in the Unit that has already made an Action."
+      },
+      {
+        "slot": 2,
+        "title": "SAW Gunner",
+        "weapon": { "name": "LMG", "range": "32\"", "damage": 1, "keywords": ["Cyclic", "Heavy"] }
+      }
+    ],
+    "specialRules": [],
+    "unitAbility": null,
+    "isDuster": false,
+    "isAI": false,
+    "isPowered": false
+  },
+  {
+    "id": "tfb-vat-element",
+    "factionId": "task-force-boone",
+    "name": "VAT Element",
+    "fullName": "Boone VAT Element",
+    "catalogCode": "TFB-9862",
+    "movement": 6,
+    "skill": 6,
+    "armor": "1/6",
+    "combatLoads": 1,
+    "weapons": [
+      { "name": "Carbine", "range": "18\"", "damage": 1, "keywords": ["CQB"] }
+    ],
+    "specialists": [
+      {
+        "slot": 1,
+        "title": "Data Specialist",
+        "ability": "Jammer 12\", Data Knife 6\""
+      },
+      {
+        "slot": 2,
+        "title": "SAW Gunner",
+        "weapon": { "name": "Compact LMG", "range": "24\"", "damage": 1, "keywords": ["Cyclic", "CQB"] }
+      }
+    ],
+    "specialRules": ["Jump (4)"],
+    "unitAbility": null,
+    "isDuster": false,
+    "isAI": false,
+    "isPowered": false
+  },
+  {
+    "id": "tfb-razorback",
+    "factionId": "task-force-boone",
+    "name": "Razorback",
+    "fullName": "Boone Razorback",
+    "catalogCode": "TFB-9863",
+    "movement": 5,
+    "skill": 4,
+    "armor": "3/4",
+    "combatLoads": 0,
+    "weapons": [
+      { "name": "Gauss SAW", "range": "32\"", "damage": 1, "keywords": ["Cyclic", "AP (2)", "Auto (2)"] },
+      { "name": "Razorback ATGM", "range": "6-32\"", "damage": 2, "keywords": ["Blast (1)", "Indirect"] }
+    ],
+    "specialists": [],
+    "specialRules": ["Drone", "AI"],
+    "unitAbility": null,
+    "isDuster": false,
+    "isAI": true,
+    "isPowered": false
+  }
+]

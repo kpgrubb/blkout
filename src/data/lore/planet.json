@@ -1,0 +1,176 @@
+[
+  {
+    "id": "abol-overview",
+    "name": "Planet ABOL",
+    "category": "geography",
+    "description": "Humanity's first and last colony, orbiting Proxima Centauri. Despite 40 years of terraforming, ABOL remains a planet of extremes. Its low-oxygen atmosphere resembles Earth's high altitudes. Most habitation has shifted underground, where natural caves and craters provide breathable air and shelter. Water is scarce, with the surface dominated by deserts and arid savannas."
+  },
+  {
+    "id": "ethron",
+    "name": "Ethron",
+    "category": "settlement",
+    "description": "ABOL's largest city and capital, established in the Cenriv I crater. Built from repurposed colony ship hulls, its prefabricated megastructures stretch across the plains. Home to the space elevator and UN/Authority headquarters. Site of the Yellow Revolution and the Battle of Ethron."
+  },
+  {
+    "id": "cenriv-crater",
+    "name": "Cenriv Crater Complex",
+    "category": "geography",
+    "description": "A sprawling crater system in ABOL's Southern Hemisphere serving as the heart of human settlement. The Cenriv I crater houses Ethron and the space elevator. The complex provides some of the most hospitable conditions on the planet."
+  },
+  {
+    "id": "frontier-desert",
+    "name": "Frontier Desert",
+    "category": "geography",
+    "description": "An unforgiving wasteland north of the Cenriv Complex that was once a vast ocean. Dotted with outposts and homesteads. Rumors persist of a rebel stronghold within The Thorn."
+  },
+  {
+    "id": "the-thorn",
+    "name": "The Thorn",
+    "category": "geography",
+    "description": "A massive peak towering 17 miles above the planet's surface, located at the center of the Frontier Desert. Rumored to house a rebel stronghold."
+  },
+  {
+    "id": "abol-secundus",
+    "name": "ABOL Secundus",
+    "category": "geography",
+    "description": "The Northern Hemisphere -- a jagged, ash-covered wasteland where few dare to venture. The Mokhri Pat mountain range and corrosive ash from a supervolcano make this region nearly uninhabitable. Rich in Abolite deposits."
+  },
+  {
+    "id": "mokhri-pat",
+    "name": "Mokhri Pat Mountains",
+    "category": "geography",
+    "description": "A treacherous mountain range in ABOL Secundus. Corrosive volcanic ash and extreme conditions make expeditions deadly, though rich Abolite deposits continue to attract mining operations."
+  },
+  {
+    "id": "san-christo",
+    "name": "San Christo",
+    "category": "settlement",
+    "description": "One of ABOL's major cities, seized by the UN during the Second Landing War. Located in the more hospitable San Christo Valley, it supports larger livestock farming."
+  },
+  {
+    "id": "new-damascus",
+    "name": "New Damascus",
+    "category": "settlement",
+    "description": "A major city on ABOL, seized by the UN during the Second Landing War alongside San Christo."
+  },
+  {
+    "id": "hades-point",
+    "name": "Hades Point",
+    "category": "settlement",
+    "description": "A settlement near the Howling Hills, known for the eerie wailing of native Ideres Rams. One of ABOL's developed but remote cities."
+  },
+  {
+    "id": "the-scatter",
+    "name": "The Scatter",
+    "category": "settlement",
+    "description": "Shanty towns on the rim of Ethron's crater, created by thousands who fled during the Yellow Revolution. A lawless zone between Authority control and the frontier."
+  },
+  {
+    "id": "grass-sea",
+    "name": "The Grass Sea",
+    "category": "geography",
+    "description": "Vast grasslands dominated by Razor Grass -- tall blades sharp enough to draw blood from uncovered skin. Home to homesteaders, Bons Bushes, and Grass Racer lizards."
+  },
+  {
+    "id": "castor-pollux",
+    "name": "Twin Moons: Castor & Pollux",
+    "category": "climate",
+    "description": "ABOL's two moons drive its seasonal cycles. The milder Castor Phase allows for relative normalcy. The severe Pollux Phase brings superstorms that stir up vast amounts of dust and ash, blocking sunlight for months and plunging regions into darkness."
+  },
+  {
+    "id": "ash-storms",
+    "name": "Ash Storms",
+    "category": "climate",
+    "description": "Catastrophic storms that ravage ABOL's surface, especially during the Pollux Phase. In 2073, ash storms disrupted UN supply chains, driving colonists to rely on criminal organizations for food and water."
+  },
+  {
+    "id": "abolite",
+    "name": "Abolite",
+    "category": "geography",
+    "description": "A rare, energy-dense mineral found in ABOL Secundus and the desert foothills. Its discovery drives dangerous mining operations and factional conflict. The key resource fueling the planet's economy and wars."
+  },
+  {
+    "id": "dune-grass",
+    "name": "Dune Grass",
+    "category": "flora",
+    "description": "Hardy plant found in the Frontier Desert with deep roots accessing underground water. Survives extreme temperatures and serves as a vital food source for local herbivores."
+  },
+  {
+    "id": "crimson-ferns",
+    "name": "Crimson Ferns",
+    "category": "flora",
+    "description": "Grow in lower elevations of the Gran Taon Mountains. Adapted to low-oxygen environments with a reddish hue to absorb more sunlight during short daylight periods."
+  },
+  {
+    "id": "glow-moss",
+    "name": "Glow Moss",
+    "category": "flora",
+    "description": "Bioluminescent moss found in subterranean cave systems, providing light in the dark underground habitats of ABOL."
+  },
+  {
+    "id": "titans-cactus",
+    "name": "Titan's Cactus",
+    "category": "flora",
+    "description": "Common in the Grass Sea. Large water-storing pads survive long droughts. Resilient to both high temperatures and low water levels."
+  },
+  {
+    "id": "razor-grass",
+    "name": "Razor Grass",
+    "category": "flora",
+    "description": "Dominates the Grass Sea ecosystem. Tall grass with razor-sharp blades that can draw blood from uncovered skin. The linchpin of its biome."
+  },
+  {
+    "id": "bons-bush",
+    "name": "Bons Bush",
+    "category": "flora",
+    "description": "Thick, stout scrub trees found in the Sea of Grass. Wood has an almost rubber-like consistency, making it poor building material -- hence the nickname 'Bounce Bushes.'"
+  },
+  {
+    "id": "ideres-rams",
+    "name": "Ideres Rams",
+    "category": "fauna",
+    "description": "Large, horned herbivores native to the Howling Hills near Hades Point. Known for 'human-like wails.' Adapted to low-oxygen environments."
+  },
+  {
+    "id": "ash-drakes",
+    "name": "Ash Drakes",
+    "category": "fauna",
+    "description": "Small, bat-like reptiles thriving in the ash-filled environments of Mokhri Pat. Thick, heat-resistant scales survive highly acidic atmosphere."
+  },
+  {
+    "id": "glimmer-fish",
+    "name": "Glimmer Fish",
+    "category": "fauna",
+    "description": "Bioluminescent fish in ABOL's underground water systems. Their glow attracts prey and provides light in dark aquatic environments."
+  },
+  {
+    "id": "sand-striders",
+    "name": "Sand Striders",
+    "category": "fauna",
+    "description": "Large, insect-like creatures inhabiting the Frontier Desert. Adapted to extreme temperatures and scarce water, capable of long-distance travel across arid landscape."
+  },
+  {
+    "id": "cave-pythons",
+    "name": "Cave Pythons",
+    "category": "fauna",
+    "description": "Large snakes in ABOL's subterranean environments. Slower metabolism and keen echolocation for navigating dark cave systems."
+  },
+  {
+    "id": "pool-shrimp",
+    "name": "Pool Shrimp",
+    "category": "fauna",
+    "description": "Small crustaceans found wherever water pools, with a vast tree of subspecies including bioluminescent cave shrimp and MEGA shrimp in the Great Rivers."
+  },
+  {
+    "id": "ash-cobras",
+    "name": "Ash Cobras",
+    "category": "fauna",
+    "description": "Massive snakes evolved from Earth cobras and pit vipers brought to ABOL. Intense radiation transformed these creatures into something far more dangerous."
+  },
+  {
+    "id": "grass-racers",
+    "name": "Grass Racers",
+    "category": "fauna",
+    "description": "Small, snake-like lizards native to the Sea of Grass. Foot-long reptiles that use their limbs to slide and glide through massive grass fields as if swimming."
+  }
+]

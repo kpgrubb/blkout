@@ -1,0 +1,198 @@
+[
+  {
+    "id": "1-0",
+    "number": "1.0",
+    "title": "Before You Play",
+    "content": "BLKOUT is a 32mm (1/48th) scale tabletop wargame. You will need miniatures on individual bases, terrain, tokens/markers, and D10 dice. Each player controls a force made up of Groups, each containing units of 2-4 models.",
+    "keywords": ["setup", "scale", "miniatures", "bases", "terrain", "tokens", "D10"]
+  },
+  {
+    "id": "1-1",
+    "number": "1.1",
+    "title": "Dice & Skill Checks",
+    "content": "BLKOUT uses D10 dice. When making a Skill Check, roll a number of D10 equal to the action's dice pool. Each die that meets or exceeds the target's Skill value is a success. Rolling a 10 (an Ace) counts as 2 successes. Most checks require at least 1 success to pass.",
+    "keywords": ["dice", "D10", "skill check", "ace", "success", "roll"]
+  },
+  {
+    "id": "1-2",
+    "number": "1.2",
+    "title": "Unit Cards",
+    "content": "Each unit has a card showing: Movement (inches per Reposition), Skill (target number for checks), Armor (damage track / armor save value), Combat Loads (armory uses), Weapons (range/damage/keywords), Specialists, and Special Rules.",
+    "keywords": ["unit card", "movement", "skill", "armor", "combat loads", "weapons", "specialists"]
+  },
+  {
+    "id": "2-0",
+    "number": "2.0",
+    "title": "Movement",
+    "content": "During the Reposition Step, each model in the active unit may move up to its Movement value in inches. Models must maintain unit coherency. Movement is affected by obstacles and terrain.",
+    "keywords": ["movement", "reposition", "coherency", "obstacles"]
+  },
+  {
+    "id": "2-1",
+    "number": "2.1",
+    "title": "Obstacles & Vertical Movement",
+    "content": "Models can climb obstacles up to 1\" tall for free. Taller obstacles require the full Movement value to climb. Models with Jump (X) can move up to X inches vertically, ignoring obstacles.",
+    "keywords": ["obstacles", "climbing", "vertical", "jump"]
+  },
+  {
+    "id": "2-2",
+    "number": "2.2",
+    "title": "Leaning Out",
+    "content": "Models in Cover behind an obstacle may Lean Out to gain line of sight. The model is temporarily placed at the edge of cover. Leaning Out models still benefit from Cover but can be targeted.",
+    "keywords": ["lean out", "cover", "line of sight"]
+  },
+  {
+    "id": "3-0",
+    "number": "3.0",
+    "title": "Combat",
+    "content": "Combat in BLKOUT is resolved through Shooting Actions and Close Quarters Combat (CQC). Shooting follows these steps: 1) Declare target, 2) Check range and line of sight, 3) Roll to hit (Skill Check), 4) Target makes Armor Check, 5) Apply damage.",
+    "keywords": ["combat", "shooting", "CQC", "hit", "damage", "armor check"]
+  },
+  {
+    "id": "3-1",
+    "number": "3.1",
+    "title": "Shooting",
+    "content": "To shoot: declare a target in range and line of sight. Roll D10 equal to the weapon's Shots value. Each result meeting or exceeding the shooter's Skill value is a hit. Aces (10s) count as 2 hits. Apply weapon keywords, then the target makes an Armor Check.",
+    "keywords": ["shooting", "shots", "skill", "hit", "ace", "range", "line of sight"]
+  },
+  {
+    "id": "3-2",
+    "number": "3.2",
+    "title": "Cover",
+    "content": "Models in Cover impose -1D10 on the attacker's Shooting roll. Cover is determined by line of sight -- if more than half the target model is obscured by terrain, it has Cover. Some weapon keywords (Seeking, Melee) ignore Cover penalties.",
+    "keywords": ["cover", "terrain", "obscured", "seeking", "penalty"]
+  },
+  {
+    "id": "3-3",
+    "number": "3.3",
+    "title": "Armor Checks",
+    "content": "When a model is hit, roll D10 for an Armor Check. The target number is the model's Armor value (e.g., Armor 6 means 6+ to save). AP (X) adds X to this target number. Each failed save applies 1 point of damage. Sustained (X) forces X successful saves to be rerolled.",
+    "keywords": ["armor check", "armor", "save", "AP", "sustained", "damage"]
+  },
+  {
+    "id": "3-4",
+    "number": "3.4",
+    "title": "Close Quarters Combat (CQC)",
+    "content": "CQC occurs when models are in Base-to-Base contact. Both models fight simultaneously. Melee weapons are used in CQC and never suffer Cover penalties. Targets of Melee weapons may only Return Fire with Melee weapons or use the Juke reaction.",
+    "keywords": ["CQC", "close quarters", "melee", "base to base"]
+  },
+  {
+    "id": "3-5",
+    "number": "3.5",
+    "title": "Explosives & Blast",
+    "content": "Weapons with Blast (X) hit X additional models within 2\" of the original target when they hit. Each hit is resolved separately for damage. Blast weapons can fire in AP or HE modes where applicable.",
+    "keywords": ["blast", "explosives", "area effect", "AP mode", "HE mode"]
+  },
+  {
+    "id": "4-0",
+    "number": "4.0",
+    "title": "Game Setup",
+    "content": "Players agree on game size (1-3 Groups per side), table size (2'x2' for 1 Group, 3'x3' for 2-3 Groups), and scenario. Deploy terrain, then follow scenario setup for deployment edges and objectives.",
+    "keywords": ["setup", "game size", "groups", "table size", "scenario", "deployment"]
+  },
+  {
+    "id": "4-1",
+    "number": "4.1",
+    "title": "Inserting Units",
+    "content": "Units are placed on the table during setup according to the scenario's deployment rules. Some scenarios allow units to be held in reserve and inserted later during the game.",
+    "keywords": ["inserting", "deployment", "reserve"]
+  },
+  {
+    "id": "5-0",
+    "number": "5.0",
+    "title": "Game Rounds",
+    "content": "Each round has two phases: Operations Phase (pick up tokens, determine initiative) and Execution Phase (alternate activating units). The game continues for the number of rounds specified by the scenario.",
+    "keywords": ["rounds", "operations", "execution", "initiative", "phases"]
+  },
+  {
+    "id": "5-1",
+    "number": "5.1",
+    "title": "Initiative",
+    "content": "During the Operations Phase, both players roll for initiative. The player with the higher result chooses who activates first. Ties are rerolled. Some unit abilities modify initiative rolls.",
+    "keywords": ["initiative", "operations phase", "first activation"]
+  },
+  {
+    "id": "6-0",
+    "number": "6.0",
+    "title": "Activating Units",
+    "content": "During the Execution Phase, players alternate activating units. To activate: spend a Control Point, then the unit performs its Reposition Step (all models move), followed by individual model Actions (Shoot, Ready, or Sprint).",
+    "keywords": ["activation", "control points", "reposition", "actions", "shoot", "ready", "sprint"]
+  },
+  {
+    "id": "6-1",
+    "number": "6.1",
+    "title": "Actions",
+    "content": "Each model in the activated unit may perform ONE action: Shoot (make a shooting attack), Ready (gain a Ready token for later use), or Sprint (move an additional distance equal to Movement value). After all models act, place an Activation marker on the unit.",
+    "keywords": ["actions", "shoot", "ready", "sprint", "activation marker"]
+  },
+  {
+    "id": "6-2",
+    "number": "6.2",
+    "title": "Control Points",
+    "content": "Control Points are spent to activate units. Each Group provides a base number of Control Points per round. Handlers can recover spent Control Points. Managing your CP pool is critical to maintaining tempo.",
+    "keywords": ["control points", "CP", "handler", "activation", "tempo"]
+  },
+  {
+    "id": "7-0",
+    "number": "7.0",
+    "title": "Reactions",
+    "content": "Non-activated units may React when enemy units act nearby. Three reaction types: Return Fire (shoot back when shot at), Overwatch (shoot at enemies who move in sight), and Juke (dodge to avoid damage). Reactions cost the reacting unit its activation for the round.",
+    "keywords": ["reactions", "return fire", "overwatch", "juke"]
+  },
+  {
+    "id": "7-1",
+    "number": "7.1",
+    "title": "Return Fire",
+    "content": "When a model in your unit is targeted by a Shoot Action, the unit may React with Return Fire. The reacting unit immediately shoots back at the attacker. Both attacks are resolved simultaneously.",
+    "keywords": ["return fire", "reaction", "simultaneous"]
+  },
+  {
+    "id": "7-2",
+    "number": "7.2",
+    "title": "Overwatch",
+    "content": "A unit with a Ready token may declare Overwatch against an enemy unit that moves within line of sight. The overwatch unit fires at the moving enemy. The moving unit does not get to shoot back.",
+    "keywords": ["overwatch", "ready token", "movement", "reaction"]
+  },
+  {
+    "id": "7-3",
+    "number": "7.3",
+    "title": "Juke",
+    "content": "When targeted by a Melee weapon or in situations where Return Fire isn't possible, a unit may Juke -- making a short move to avoid the attack. The juking model moves up to 2\" to escape.",
+    "keywords": ["juke", "dodge", "melee", "escape"]
+  },
+  {
+    "id": "8-0",
+    "number": "8.0",
+    "title": "Data Attacks",
+    "content": "A Data Attack is a Skill Check that, if successful, places a Pinned Marker on the target unit. Pinned units suffer penalties. Units with the Jammer keyword within range can negate Pinned effects. Low Tech units are immune to Data Attacks.",
+    "keywords": ["data attack", "pinned", "jammer", "low tech", "cyber", "electronic warfare"]
+  },
+  {
+    "id": "8-1",
+    "number": "8.1",
+    "title": "Vehicles & Dusters",
+    "content": "Dusters (MIDAS - Mobile Infantry Direct Action System) are heavy combat walkers with front/rear arcs, dual damage tracks, and powerful weapons. They use Mobility instead of Movement, have unique armor rules, and access the Duster Armory. Dusters can be targeted on their mobility (legs) or hull separately.",
+    "keywords": ["duster", "MIDAS", "vehicle", "walker", "mobility", "hull", "damage track", "front arc", "rear arc"]
+  },
+  {
+    "id": "8-2",
+    "number": "8.2",
+    "title": "Smoke",
+    "content": "Smoke Tokens block line of sight. Models cannot see through or shoot through Smoke. Smoke dissipates at the start of each round on a roll of 7+ (unless specified otherwise, e.g., Chaff dissipates on 10+). Smoke is placed by Battle Drills and Armory items.",
+    "keywords": ["smoke", "line of sight", "dissipate", "chaff", "block"]
+  },
+  {
+    "id": "8-3",
+    "number": "8.3",
+    "title": "Burn Cards",
+    "content": "Burn Cards are powerful one-use cards that provide dramatic effects. Each player draws a hand at the start of the game. Cards are played at specific timing windows (before activation, when damaged, etc.) and are discarded after use.",
+    "keywords": ["burn cards", "one-use", "timing", "hand"]
+  },
+  {
+    "id": "8-4",
+    "number": "8.4",
+    "title": "Matched Play",
+    "content": "Matched Play uses enhanced rules for competitive games. Group Building: 1x Handler Unit + 1x Force Card + 3x Different Units (or BLKLIST Units). Enhanced cover system (Full/Partial/Lean Out), modified control point management, Counter EWAR, and specific scenarios.",
+    "keywords": ["matched play", "competitive", "handler", "force card", "BLKLIST"]
+  }
+]

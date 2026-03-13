@@ -1,0 +1,22 @@
+[
+  { "id": "kw-1", "text": "KILLWAGER FLASH: Harlow operators spotted moving through Sector 7. Odds on a clean sweep: 3:1. Place your bets.", "factionTags": ["harlow"] },
+  { "id": "kw-2", "text": "BREAKING: Manticor Borz column sighted near the Scatter. Ubiytsa forward elements confirmed. Stay off the main roads.", "factionTags": ["manticor-borz"] },
+  { "id": "kw-3", "text": "KILLWAGER UPDATE: Last night's raid on the Authority checkpoint netted 4 crates of Abolite. Headless operatives claim responsibility.", "factionTags": ["the-headless"] },
+  { "id": "kw-4", "text": "UTG pair confirmed KIA in the Frontier Desert. Golem unit recovered intact. Authority is offering double bounty for the shooters.", "factionTags": ["un-raid-force-alpha"] },
+  { "id": "kw-5", "text": "RUMOR: Task Force Boone establishing forward operating base in the foothills. EMP residue still scrambling comms in the area.", "factionTags": ["task-force-boone"] },
+  { "id": "kw-6", "text": "Ash storm warning for the Cenriv Complex. Pollux Phase approaching. Stock up or dig in.", "factionTags": [] },
+  { "id": "kw-7", "text": "KILLWAGER ODDS: Chimera vs. Authority at Fort Hope -- Chimera 2:1 underdogs. Disciples spotted with heavy augmentation rigs.", "factionTags": ["chimera"] },
+  { "id": "kw-8", "text": "Sabra runners intercepted carrying med supplies to the Scatter. Authority claims contraband. Headless says humanitarian aid. You decide.", "factionTags": ["the-headless"] },
+  { "id": "kw-9", "text": "ORK Strzyga team went dark near Mokhri Pat three days ago. P3 offering premium for any intel on their status.", "factionTags": ["ork"] },
+  { "id": "kw-10", "text": "KILLWAGER FLASH: 3rd Battalion Peacemaker drone disabled by EMP. Boone VAT element suspected. Odds on retaliation strike: Even money.", "factionTags": ["un-3rd-battalion", "task-force-boone"] },
+  { "id": "kw-11", "text": "Banak extraction team pulled something out of the quarantine zone. Authority wants it back. Badly.", "factionTags": ["banak"] },
+  { "id": "kw-12", "text": "WEATHER: Castor Phase holding. Enjoy the sun while it lasts. Pollux projections show 6-week blackout incoming.", "factionTags": [] },
+  { "id": "kw-13", "text": "Ideres Rams migrating south early this year. Old-timers say that means a bad Pollux. Load your mags.", "factionTags": [] },
+  { "id": "kw-14", "text": "KILLWAGER PAYOUT: Last week's server defense bet paid 8:1 for the underdog. Someone in the Scatter is very rich tonight.", "factionTags": [] },
+  { "id": "kw-15", "text": "Criket drones spotted doing recon sweeps near New Damascus. Harlow Engineers can't be far behind.", "factionTags": ["harlow"] },
+  { "id": "kw-16", "text": "AUTHORITY BROADCAST: Curfew extended. All citizens must present valid SSSA documentation at checkpoints. Non-compliance will be met with force.", "factionTags": ["un-3rd-battalion"] },
+  { "id": "kw-17", "text": "Glow Moss prices up 40% after cave collapse near Ethron. Underground farmers scrambling.", "factionTags": [] },
+  { "id": "kw-18", "text": "KILLWAGER: Manticor Bratva team challenged a Boone recon element near The Thorn. No survivors reported. Bets still open on who walked away.", "factionTags": ["manticor-borz", "task-force-boone"] },
+  { "id": "kw-19", "text": "Sand Strider migration blocking Route 9. Convoys rerouting through Razor Grass country. Bring bandages.", "factionTags": [] },
+  { "id": "kw-20", "text": "Remember Gaia. Remember the yellow dress. The Authority doesn't want you to. -- IRAFEL broadcast, frequency unknown", "factionTags": ["the-headless"] }
+]

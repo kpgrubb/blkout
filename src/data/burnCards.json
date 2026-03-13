@@ -1,0 +1,50 @@
+[
+  {
+    "id": "amped",
+    "name": "Amped",
+    "timing": "Play this before a Unit Activates.",
+    "effect": "The Unit's Weapons gain +1 Damage for the Activation."
+  },
+  {
+    "id": "blade-runner",
+    "name": "Blade Runner",
+    "timing": "Play this card when a Unit Moves.",
+    "effect": "Models in the Unit can extend their Movement by 2\" and can bypass Obstacles."
+  },
+  {
+    "id": "extras",
+    "name": "Extras!",
+    "timing": "Play this card when a Unit completes its Activation.",
+    "effect": "Unmark all of its Combat Loads."
+  },
+  {
+    "id": "juiced",
+    "name": "Juiced",
+    "timing": "Play this when a Model suffers Damage.",
+    "effect": "It will ignore all Damage taken."
+  },
+  {
+    "id": "perimeter-defense",
+    "name": "Perimeter Defense",
+    "timing": "Play this card when an Enemy Unit is Activated.",
+    "effect": "The Unit becomes Pinned."
+  },
+  {
+    "id": "phase-out",
+    "name": "Phase Out",
+    "timing": "Play this before a Unit Activates.",
+    "effect": "Models in this Unit can be placed anywhere within 2\" before their Activation begins."
+  },
+  {
+    "id": "rewind",
+    "name": "Rewind",
+    "timing": "Play this after Activating a Unit.",
+    "effect": "The Player may immediately Activate another Unit and play a Battle Drill for free."
+  },
+  {
+    "id": "personal-shielding",
+    "name": "Personal Shielding",
+    "timing": "Play this card when a Unit suffers Damage.",
+    "effect": "For the duration of the Activation, Models in this Unit may roll 2 additional Armor Check D10."
+  }
+]

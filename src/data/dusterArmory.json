@@ -1,0 +1,7 @@
+[
+  { "name": "Smoke Discharge", "ability": "Place a Smoke Marker within 8\" of this Model before Repositioning." },
+  { "name": "TOW", "weapon": { "name": "TOW", "range": "8-32\"", "damage": 3, "keywords": ["AP (2)"] } },
+  { "name": "Boost", "ability": "This Model's mobility may not be Targeted during this Action. It gains Cover if it doesn't have it." },
+  { "name": "Cluster", "weapon": { "name": "Cluster", "range": "8-32\"", "damage": 1, "keywords": ["Blast (4)"] } },
+  { "name": "Targeting Array", "ability": "This Model may ignore Cover when Targeting Infantry Models during this Action." }
+]

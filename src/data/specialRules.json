@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ai",
+    "name": "AI",
+    "description": "Models may be affected by Special Rules that only affect AI Models.",
+    "isWeaponKeyword": false
+  },
+  {
+    "id": "ap",
+    "name": "AP (X)",
+    "description": "Adds X to the Target's Armor Check number. For example, AP (2) converts an Armor 3+ to 5+.",
+    "isWeaponKeyword": true
+  },
+  {
+    "id": "auto",
+    "name": "Auto (X)",
+    "description": "After shooting, the model may make up to X additional Shoot Actions. These additional shots cannot be Reacted to and must target models within 4\" of the initial target.",
+    "isWeaponKeyword": true
+  },
+  {
+    "id": "blast",
+    "name": "Blast (X)",
+    "description": "When this weapon hits, it also hits X additional models within 2\" of the original target. Roll damage for each hit separately.",
+    "isWeaponKeyword": true
+  },
+  {
+    "id": "cqb",
+    "name": "CQB",
+    "description": "Reroll all failed shots against targets within half range of the weapon.",
+    "isWeaponKeyword": true
+  },
+  {
+    "id": "cyclic",
+    "name": "Cyclic",
+    "description": "After a Shoot Action with this weapon, the model may make one additional Shoot or Ready Action.",
+    "isWeaponKeyword": true
+  },
+  {
+    "id": "data-knife",
+    "name": "Data Knife",
+    "description": "Make a Data Attack Action (Skill Check). If successful, apply one Damage to an AI or Powered Model with no Armor Check allowed.",
+    "isWeaponKeyword": true
+  },
+  {
+    "id": "deployed",
+    "name": "Deployed",
+    "description": "If the model moved during its Reposition Step, it may only roll 1D10 when shooting this weapon during its Activation. Reactions are unaffected.",
+    "isWeaponKeyword": true
+  },
+  {
+    "id": "drone",
+    "name": "Drone",
+    "description": "Cannot enter or participate in CQC. Cannot use ladders to move vertically or lean out.",
+    "isWeaponKeyword": false
+  },
+  {
+    "id": "emp",
+    "name": "EMP",
+    "description": "Can only apply Damage to units with the AI special rule. No Armor Check is allowed.",
+    "isWeaponKeyword": true
+  },
+  {
+    "id": "heavy",
+    "name": "Heavy",
+    "description": "Gain +1 Shot during Reactions and Activations where the model didn't Move during the Reposition Step.",
+    "isWeaponKeyword": true
+  },
+  {
+    "id": "indirect",
+    "name": "Indirect",
+    "description": "May use another model within the Group's line of sight to determine the target, but weapon range is measured from the original (firing) model.",
+    "isWeaponKeyword": true
+  },
+  {
+    "id": "jammer",
+    "name": "Jammer",
+    "description": "Models within range ignore the effects of Pinned Markers on their Unit.",
+    "isWeaponKeyword": true
+  },
+  {
+    "id": "jump",
+    "name": "Jump (X)",
+    "description": "This model may move up to X inches vertically during its Reposition Step, ignoring obstacles and terrain height.",
+    "isWeaponKeyword": false
+  },
+  {
+    "id": "low-tech",
+    "name": "Low Tech",
+    "description": "Cannot gain Pinned Markers from Data Attacks or be Targeted by Indirect weapons.",
+    "isWeaponKeyword": false
+  },
+  {
+    "id": "medium",
+    "name": "Medium",
+    "description": "Reroll one Failed Shot when used in a Shoot Action.",
+    "isWeaponKeyword": true
+  },
+  {
+    "id": "melee",
+    "name": "Melee",
+    "description": "Never suffers -1D10 from Cover. When used in a Shooting Action, place the shooting model Base-to-Base with the target before resolving. Targets may only Return Fire with a Melee Weapon or Juke.",
+    "isWeaponKeyword": true
+  },
+  {
+    "id": "powered",
+    "name": "Powered",
+    "description": "This model uses a powered combat suit with a separate damage track.",
+    "isWeaponKeyword": false
+  },
+  {
+    "id": "seeking",
+    "name": "Seeking",
+    "description": "Does not suffer -1 Shot from the target being in Cover.",
+    "isWeaponKeyword": true
+  },
+  {
+    "id": "shield",
+    "name": "Shield",
+    "description": "This model and one friendly Infantry model in Base-to-Base contact gain Cover. Only one friendly model may benefit at a time.",
+    "isWeaponKeyword": false
+  },
+  {
+    "id": "sustained",
+    "name": "Sustained (X)",
+    "description": "The target must reroll X successful Armor D10 when making an Armor Check against this weapon.",
+    "isWeaponKeyword": true
+  }
+]

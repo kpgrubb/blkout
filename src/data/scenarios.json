@@ -1,0 +1,57 @@
+[
+  {
+    "id": "dockyard-assault",
+    "name": "Dockyard Assault",
+    "tableSize": "2x2",
+    "description": "One force must assault and secure a dockyard while the defender holds key positions. An asymmetric scenario testing aggression against fortified defense.",
+    "setupInstructions": "Place 2 Hardpoints in the center of the table. Attacker deploys on one table edge, Defender deploys on the opposite edge within 4\" of their deployment edge. Attacker goes first in Round 1.",
+    "specialRules": ["Attacker has initiative in Round 1", "Defender places Hardpoints"],
+    "objectiveRules": "The Attacker must control both Hardpoints by the end of Round 4. The Defender wins if they control at least one Hardpoint at game end.",
+    "hardpoints": 2,
+    "isMatchedPlay": false
+  },
+  {
+    "id": "server-defense",
+    "name": "Server Defense",
+    "tableSize": "2x2",
+    "description": "A critical data server must be protected or destroyed. The Defender guards the server while the Attacker attempts to reach and hack it.",
+    "setupInstructions": "Place 1 objective marker (the Server) in the center of the table. Defender deploys within 6\" of the Server. Attacker deploys on any table edge, at least 8\" from the Server.",
+    "specialRules": ["Server has 3 damage points", "Attacker can hack with Data Attack at base contact"],
+    "objectiveRules": "Attacker wins by destroying or hacking the Server. Defender wins by keeping the Server intact through Round 4.",
+    "hardpoints": 1,
+    "isMatchedPlay": false
+  },
+  {
+    "id": "hvt-evac",
+    "name": "HVT Evac",
+    "tableSize": "3x3",
+    "description": "A High Value Target must be extracted from the combat zone. One force escorts the HVT to the extraction point while the other tries to capture or eliminate them.",
+    "setupInstructions": "Place the HVT model in the center of the table. Place extraction point on the Defender's table edge. Both forces deploy on opposite long edges within 4\" of their edge.",
+    "specialRules": ["HVT moves with escorting unit", "HVT has 2 damage points", "HVT cannot fight"],
+    "objectiveRules": "Escort force wins by moving the HVT to the extraction point. Opposing force wins by eliminating the HVT or preventing extraction by Round 5.",
+    "hardpoints": 2,
+    "isMatchedPlay": false
+  },
+  {
+    "id": "zero-day",
+    "name": "Zero Day",
+    "tableSize": "3x3",
+    "description": "A planet-wide EMP has just detonated. Both forces scramble to secure key positions in the chaos. Pure carnage.",
+    "setupInstructions": "Place 3 objective markers evenly spaced along the center line. Both forces deploy on opposite short edges within 6\" of their edge.",
+    "specialRules": ["No Data Attacks in Round 1 (EMP interference)", "All AI units start with Pinned markers"],
+    "objectiveRules": "The force controlling the most objectives at the end of Round 5 wins. Ties broken by total enemy models eliminated.",
+    "hardpoints": 3,
+    "isMatchedPlay": false
+  },
+  {
+    "id": "matched-standard",
+    "name": "Matched Play Standard",
+    "tableSize": "3x3",
+    "description": "The standard Matched Play scenario with quadrant control, dome shields, scrambling, and drone swarms.",
+    "setupInstructions": "Place 2 Hardpoints on the table as agreed by both players. Use standard Matched Play deployment with Infiltrating rules. Both players deploy on opposite long edges.",
+    "specialRules": ["Dome Shields", "Scrambling", "Drone Swarms", "Enhanced Cover (Full/Partial/Lean Out)", "Counter EWAR"],
+    "objectiveRules": "Score points by controlling quadrants and Hardpoints at the end of each round. Highest score at game end wins.",
+    "hardpoints": 2,
+    "isMatchedPlay": true
+  }
+]

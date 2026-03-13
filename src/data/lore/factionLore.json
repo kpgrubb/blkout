@@ -1,0 +1,62 @@
+[
+  {
+    "factionId": "harlow",
+    "fullHistory": "Harlow Kinetic Solutions is the primary enforcement arm of the Authority, replacing the initial UN Peacekeepers. Known for efficiency and brutality, Harlow combines top-tier technology with rigorous training, drawing many members from Western Tier 1 Forces. Despite public discontent over their methods, Harlow's effectiveness has led to continual contract renewals. They arrived during the Second Wave in 2080 to support the UN's counterinsurgency operations.",
+    "keyFigures": [],
+    "notableEvents": ["Arrived with Second Wave (2080)", "Replaced UN Peacekeepers as primary enforcement", "Equipped with jump jets and combat inorganics"]
+  },
+  {
+    "factionId": "un-raid-force-alpha",
+    "fullHistory": "UN Raid Force Alpha represents the pinnacle of military prowess on ABOL. These elite female warriors, trained from birth to be lethal, work in pairs for synchronized battlefield support. Enhanced by gene therapy and cutting-edge technology as part of the Twin Moons Program, they are more experienced than any three mercenaries combined. Supported by 'Golem' Combat Units -- drones with the consciousness and experience of fallen combatants -- they are the Authority's most formidable force. UTGs consist of 'Athena' (mothers) as officers and 'Artemis' (daughters) as NCOs, capable of self-replication for force expansion.",
+    "keyFigures": ["UTG-003 'Hera' (first successful combat UTG)", "Director David Hackett (AIA oversight)"],
+    "notableEvents": ["Twin Moons Program development", "UTG-003 Hera's success as first combat-ready clone", "Golem units created from fallen combatant consciousness"]
+  },
+  {
+    "factionId": "un-3rd-battalion",
+    "fullHistory": "Veterans of the 'Yellow Riots,' the UN's 3rd Battalion serves as the professional arm of United Nations Force Command. These battle-hardened men and women are equipped with the latest technology, including state-of-the-art smart rifles and advanced Combat Kinetic Suits. Supported by 'Pointman' Inorganic units and integrated IS systems, the 3rd Battalion continues to be the Authority's bulwark against emerging threats across ABOL.",
+    "keyFigures": [],
+    "notableEvents": ["Survived the Yellow Revolution (2077)", "Equipped with Pointman AI units"]
+  },
+  {
+    "factionId": "un-forces",
+    "fullHistory": "The general forces of the United Nations on ABOL, combining UTG clone soldiers, raid teams, and battlefield command elements into a flexible fighting force. These units represent the broader UN military apparatus beyond the elite specialized formations.",
+    "keyFigures": [],
+    "notableEvents": []
+  },
+  {
+    "factionId": "manticor-borz",
+    "fullHistory": "Manticor Borz acts as the formidable right arm of Chimera. Known for exceptional physical strength and resilient combat tactics, these warriors wear heavy ballistic armor, allowing them to withstand impacts that would incapacitate most. When equipped with heavy machine guns, Manticor Borz soldiers are a terrifying presence on the battlefield. Their integration with Chimera's technology has significantly boosted their capabilities, allowing for efficient bionic augmentations.",
+    "keyFigures": [],
+    "notableEvents": ["Alliance with Chimera", "Integration of bionic augmentation technology", "Cyka powered suit development"]
+  },
+  {
+    "factionId": "chimera",
+    "fullHistory": "Chimera emerged from extremist factions of the Ibragim civil war, seeking refuge with Manticor. These zealots advocate for a fusion of technology and biology, integrating advanced tech and enhanced musculature with Manticor's strength. Their technology significantly boosted Manticor's capabilities. Chimera members often replace damaged limbs with mechanical substitutes crafted in Ibragim's labs. The most heavily augmented members, known as Disciples, frequently operate advanced equipment like Cyka suites. In 2103, Chimera descended from ABOL's moon to assault Fort Hope at the space elevator base.",
+    "keyFigures": [],
+    "notableEvents": ["Emerged from Ibragim civil war", "Descent from ABOL's moon (2103)", "Assault on Fort Hope"]
+  },
+  {
+    "factionId": "task-force-boone",
+    "fullHistory": "Burning in from Mars, fueled by vengeance. Task Force Boone arrived in the ABOL system in 2104 after a grueling war against UN forces in Earth's solar system. They've perfected their craft: small unit tactics that dominate the battlefield. With Pathfinders, Void Assault Troopers (VATs), and Razorback heavy inorganics, they fire, maneuver, and finish -- swiftly and efficiently. Their arrival triggered BLKOUT itself, deploying multiple nuclear devices in a planet-wide EMP attack.",
+    "keyFigures": [],
+    "notableEvents": ["War against UN in Earth's solar system", "Arrival at ABOL (2104)", "Planet-wide EMP attack triggering BLKOUT"]
+  },
+  {
+    "factionId": "ork",
+    "fullHistory": "Rozwizania Konfliktów Orłów (ORK) is the military arm of Polskie Przedsiębiorstwa Państwowe (P3), composed mainly of former Polish Special Forces. Initially focused on securing mining sites on ABOL, ORK's role expanded during the Yellow Revolution to include patrols and Quick Reaction Force duties. Tensions between P3 and the PAOC led to a covert Shadow War, with ORK's elite 'Strzyga' Covert Teams engaging Ibrahim's units. ORK has become the second largest PMC on ABOL, working closely with local recruits and maintaining advanced weaponry including the T3 'Czaska' Kinetic Suite and the AM-190 Linear Gauss Rifle.",
+    "keyFigures": [],
+    "notableEvents": ["P3 mining operations on ABOL", "Shadow War with PAOC/Ibragim", "Expansion during Yellow Revolution", "Development of Strzyga Covert Teams"]
+  },
+  {
+    "factionId": "banak",
+    "fullHistory": "Banak Strategic was founded by Hakob Dharbinyan in 2084, becoming a leading extraction team in the Badlands. Known for advanced bionics and Kinetic Suits, Banak evolved from the now-defunct Ibragim Strategic after internal conflicts over the direction of a secret project led to a rift with the PAOC. Following the PAOC's collapse, Banak found itself in conflict with The Authority after rumors surfaced that a SOC-SAR team recovered old-world technology from a quarantine zone.",
+    "keyFigures": ["Hakob Dharbinyan (founder)"],
+    "notableEvents": ["Founded from Ibragim Strategic remnants (2084)", "Conflict with Authority over recovered technology", "SOC-SAR quarantine zone incident"]
+  },
+  {
+    "factionId": "the-headless",
+    "fullHistory": "In ABOL's early colonization, rapid development left many unemployed and with inadequate housing. By 2073, ash storms severed UN supply lines, leading to reliance on cartels like Sabra. The rise of the Killwager fueled anti-UN sentiment. The Battle of Ethron in 2077 exposed the UN's fragile control and inspired IRAFEL to declare an end to UN tyranny. In 2084, remnants of IRAFEL, Impisi, Sabra, Jackal Team, and others formed The Headless -- a mutual security coalition led by James Vasquez. They govern a confederation of independent cities, maintain an uneasy stalemate with the Authority, and prevent abuse by regional powers.",
+    "keyFigures": ["James Vasquez (leader)"],
+    "notableEvents": ["Coalition formed from IRAFEL, Impisi, Sabra, Jackal Team (2084)", "Cold war stalemate with The Authority", "Governance of independent city confederation"]
+  }
+]

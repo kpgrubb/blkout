@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+@theme {
+  /* BLKOUT Military/Sci-Fi Color Palette */
+  --color-bg-primary: #0a0b0f;
+  --color-bg-secondary: #12141a;
+  --color-bg-tertiary: #1a1d26;
+  --color-bg-card: #161922;
+  --color-bg-hover: #1e2230;
+
+  --color-amber: #d4910a;
+  --color-amber-light: #f5b731;
+  --color-amber-dim: #8a6010;
+  --color-teal: #0ea5a5;
+  --color-teal-light: #2dd4d4;
+  --color-teal-dim: #0a7070;
+  --color-red: #dc2626;
+  --color-red-light: #ef4444;
+  --color-green: #22c55e;
+  --color-green-dim: #166534;
+
+  --color-text-primary: #e8e6eb;
+  --color-text-secondary: #9ca3af;
+  --color-text-muted: #6b7280;
+  --color-text-accent: #f5b731;
+
+  --color-border: #2a2d38;
+  --color-border-light: #3a3d4a;
+
+  /* Faction accent colors */
+  --color-faction-authority: #3b82f6;
+  --color-faction-harlow: #f59e0b;
+  --color-faction-manticor: #ef4444;
+  --color-faction-boone: #22c55e;
+  --color-faction-headless: #a855f7;
+  --color-faction-ork: #6366f1;
+  --color-faction-banak: #ec4899;
+  --color-faction-chimera: #f97316;
+
+  --font-sans: "Inter", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "Consolas", ui-monospace, monospace;
+  --font-stencil: "Oswald", "Impact", sans-serif;
+}
+
+/* Base styles */
+html {
+  font-family: var(--font-sans);
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+}
+
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Scanline overlay effect */
+.scanlines::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.03) 2px,
+    rgba(0, 0, 0, 0.03) 4px
+  );
+  z-index: 9999;
+}
+
+/* Glow effects */
+.glow-amber {
+  box-shadow: 0 0 12px rgba(212, 145, 10, 0.3);
+}
+
+.glow-teal {
+  box-shadow: 0 0 12px rgba(14, 165, 165, 0.3);
+}
+
+/* Stencil text style */
+.text-stencil {
+  font-family: var(--font-stencil);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg-secondary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-light);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-amber-dim);
+}
