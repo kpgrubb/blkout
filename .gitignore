@@ -12,9 +12,6 @@ dist
 dist-ssr
 *.local
 
-# Audio files (large, add via LFS or host separately)
-public/audio/**/*.mp3
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
