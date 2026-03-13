@@ -5,17 +5,19 @@ interface Track {
   src: string;
 }
 
+const BASE = import.meta.env.BASE_URL;
+
 const musicTracks: Track[] = [
-  { name: "Chrome Oniwaban", src: "/audio/music/Chrome_Oniwaban.mp3" },
-  { name: "Chrome Ronin Insertion", src: "/audio/music/Chrome_Ronin_Insertion.mp3" },
-  { name: "Colony Zero", src: "/audio/music/Colony_Zero.mp3" },
+  { name: "Chrome Oniwaban", src: `${BASE}audio/music/Chrome_Oniwaban.mp3` },
+  { name: "Chrome Ronin Insertion", src: `${BASE}audio/music/Chrome_Ronin_Insertion.mp3` },
+  { name: "Colony Zero", src: `${BASE}audio/music/Colony_Zero.mp3` },
 ];
 
 const loopTracks: Track[] = [
-  { name: "Undercity Loop 1", src: "/audio/loops/loop_01.mp3" },
-  { name: "Undercity Loop 2", src: "/audio/loops/loop_02.mp3" },
-  { name: "Undercity Loop 3", src: "/audio/loops/loop_03.mp3" },
-  { name: "Undercity Loop 4", src: "/audio/loops/loop_04.mp3" },
+  { name: "Undercity Loop 1", src: `${BASE}audio/loops/loop_01.mp3` },
+  { name: "Undercity Loop 2", src: `${BASE}audio/loops/loop_02.mp3` },
+  { name: "Undercity Loop 3", src: `${BASE}audio/loops/loop_03.mp3` },
+  { name: "Undercity Loop 4", src: `${BASE}audio/loops/loop_04.mp3` },
 ];
 
 export function AudioPlayer() {
