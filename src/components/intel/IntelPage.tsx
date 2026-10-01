@@ -52,6 +52,16 @@ export function IntelPage() {
         ))}
       </div>
 
+      <div className="mb-4 border border-amber-dim/60 bg-amber/10 rounded px-3 py-2 text-xs text-text-secondary leading-relaxed">
+        <span className="font-stencil tracking-wider text-amber-light">SOURCE NOTE // </span>
+        Stats come from this app's data. Official material was checked against search summaries of
+        blkoutgame.com and the BLKOUT wiki, not full pages. Tags show provenance:{" "}
+        <span className="font-mono text-text-primary">[repo]</span>,{" "}
+        <span className="font-mono text-text-primary">[web]</span>,{" "}
+        <span className="font-mono text-text-primary">[inferred]</span> (tactical opinion). Where
+        sources disagree, the conflict is flagged: check the current rulebook before relying on it.
+      </div>
+
       {contents.length > 2 && (
         <details className="mb-4 bg-bg-card border border-border rounded">
           <summary className="px-3 py-2 text-xs font-stencil tracking-wider text-text-secondary cursor-pointer">
