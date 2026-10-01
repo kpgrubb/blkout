@@ -6,7 +6,7 @@ Compiled 2026-10-01.
 ## Sources and how to read the citations
 
 - **[repo]**: `src/data/*.json` (units, dusters, dusterArmory, specialRules, rules, faq, burnCards, forceCards, factions) and `src/components/shared/KeywordBadge.tsx`. Every stat line in the tables below comes from the repo, copied without changes.
-- **[web: URL]**: web search results. **Caveat:** the sandbox's egress proxy blocked direct page fetches. Every WebFetch attempt failed with `EGRESS_BLOCKED`, including blkoutgame.com, scribd.com, blkout.wiki.gg, 4pcdn.org, theminiaturespage.com, wordpress.com and ccgwinkel.com. So the web material is limited to **search-engine excerpts** of these pages, not full first-hand reads. Treat web quotes as close paraphrases of the source. Some excerpts look truncated or merged, and these are flagged where it matters.
+- **[web: URL]**: web search results. **Caveat:** network restrictions during research blocked direct page fetches, including blkoutgame.com, scribd.com, blkout.wiki.gg, 4pcdn.org, theminiaturespage.com, wordpress.com and ccgwinkel.com. So the web material is limited to **search-engine excerpts** of these pages, not full first-hand reads. Treat web quotes as close paraphrases of the source. Some excerpts look truncated or merged, and these are flagged where it matters.
 - **[inferred]**: my own analysis, not a rule.
 
 Main web pages the excerpts came from:
