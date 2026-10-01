@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export function Header() {
   return (
     <header className="sticky top-0 z-40 bg-bg-primary/90 backdrop-blur-sm border-b border-border">
@@ -12,8 +14,20 @@ export function Header() {
             COMPANION
           </span>
         </div>
-        <div className="flex items-center gap-2">
-          <span className="text-[10px] font-mono text-text-muted">
+        <div className="flex items-center gap-3">
+          <NavLink
+            to="/intel"
+            className={({ isActive }) =>
+              `font-stencil text-xs tracking-[0.15em] px-2 py-1 rounded border transition-colors ${
+                isActive
+                  ? "text-amber-light border-amber-dim bg-amber/20"
+                  : "text-text-secondary border-border hover:text-amber-light hover:border-amber-dim"
+              }`
+            }
+          >
+            INTEL
+          </NavLink>
+          <span className="hidden sm:inline text-[10px] font-mono text-text-muted">
             ABOL // 2110
           </span>
           <div className="w-1.5 h-1.5 rounded-full bg-green animate-pulse" />

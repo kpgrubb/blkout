@@ -4,6 +4,7 @@ import { RulesPage } from "./components/rules/RulesPage";
 import { ForceBuilderPage } from "./components/force-builder/ForceBuilderPage";
 import { PlayPage } from "./components/play/PlayPage";
 import { LorePage } from "./components/lore/LorePage";
+import { IntelPage } from "./components/intel/IntelPage";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
           <Route path="/forces" element={<ForceBuilderPage />} />
           <Route path="/play" element={<PlayPage />} />
           <Route path="/lore" element={<LorePage />} />
+          <Route path="/intel" element={<IntelPage />} />
         </Routes>
       </AppShell>
     </HashRouter>
